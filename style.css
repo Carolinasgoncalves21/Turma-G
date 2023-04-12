@@ -4,7 +4,7 @@
 }
 
 .cabeçalho {
-    background-image: linear-gradient(#1B436A, #F5F5F5);
+    background-color: #F5F5F5;
     color: #FFFFFF;
     display: flex;
     justify-content: space-around;
@@ -19,4 +19,31 @@
     font-size: 36px;
     margin: 5px;
     display: inline-block;
+    font-weight: bold;
+    color: #145CA4;
+    padding-top: 30px;
 }
+
+.escola {
+    background-image: linear-gradient(#F5F5F5, #5D83AC);
+    width: 1440px;
+    height: 250px;
+}
+
+.escola-título {
+    text-align: center;
+    color: #145CA4;
+    font-size: 48px;
+    padding-top: 60px;
+}
+
+.escola-parágrafo {
+    text-align: center;
+    font-size: 36px;
+    color:#F5F5F5;
+    padding-top: 50px;
+}
+
+
+
+
