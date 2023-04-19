@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .cabeçalho {
     background-color: #F5F5F5;
     color: #FFFFFF;
@@ -26,7 +30,7 @@
 
 .escola {
     background-image: linear-gradient(#F5F5F5, #5D83AC);
-    width: 1440px;
+    width: 100%;
     height: 250px;
 }
 
@@ -42,6 +46,24 @@
     font-size: 36px;
     color:#F5F5F5;
     padding-top: 50px;
+}
+
+.galeria {
+    background-image: linear-gradient(#5D83AC, #F5F5F5);
+    color: #FFFFFF;
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.galeria-título{
+    font-size: 48px;
+}
+
+.galeria-foto {
+    padding-top: 20px;
+    width: 240px;
+    border-radius: 33px;
 }
 
 
