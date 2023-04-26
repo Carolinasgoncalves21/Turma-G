@@ -31,14 +31,15 @@ body {
 .escola {
     background-image: linear-gradient(#F5F5F5, #5D83AC);
     width: 100%;
-    height: 250px;
+    height: 350px;
+
 }
 
 .escola-título {
     text-align: center;
     color: #145CA4;
     font-size: 48px;
-    padding-top: 60px;
+    padding-top: 100px;
 }
 
 .escola-parágrafo {
@@ -50,20 +51,46 @@ body {
 
 .galeria {
     background-image: linear-gradient(#5D83AC, #F5F5F5);
+    height: 1800px;
     color: #FFFFFF;
-    height: 40%;
-    display: flex;
     justify-content: space-around;
 }
 
 .galeria-título{
+    padding-top: 50px;
     font-size: 48px;
+    text-align: center;
 }
 
 .galeria-foto {
-    padding-top: 20px;
+    padding-top: 100px;
     width: 240px;
+    height: 360px;
     border-radius: 33px;
+}
+
+.flamula {
+    color: #1B436A;
+    font-size: 36px;
+    text-align: center;  
+}
+
+.galeria-todos {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.rodape {
+    background-color: #5D83AC;
+    height: 50px;
+    
+}
+
+.copyright {
+    text-align: center;
+    font-size: 30px;
+    color:#FFFFFF;
 }
 
 
